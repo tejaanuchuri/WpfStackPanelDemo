@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfStackPanelDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfStackPanelDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label HorizontalAlignment="Left">This StackPanel In Horizontal Alignment</Label>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Label>This is a label</Label>
+            <TextBox>I am a textBox</TextBox>
+            <CheckBox>I am a CheckBox</CheckBox>
+            <ListBox>
+                <ListBoxItem>Item-1</ListBoxItem>
+                <ListBoxItem>Item-2</ListBoxItem>
+                <ListBoxItem>Item-3</ListBoxItem>
+                <ListBoxItem>Item-4</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+        <Label HorizontalAlignment="Right">This StackPanel In Vertical Alignment</Label>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Label>This is a label</Label>
+            <TextBox>I am a textBox</TextBox>
+            <CheckBox>I am a CheckBox</CheckBox>
+            <ListBox>
+                <ListBoxItem>Item-1</ListBoxItem>
+                <ListBoxItem>Item-2</ListBoxItem>
+                <ListBoxItem>Item-3</ListBoxItem>
+                <ListBoxItem>Item-4</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Window>
